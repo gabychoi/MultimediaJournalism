@@ -32,7 +32,7 @@ class PhotoUpdate(UpdateView) :
     success_url = '/'
 
     def dispatch(self, request, *args, **kwargs):
-        object - self.get_object()
+        object = self.get_object()
         if object.author != request.user:
             messages.warning(request, "수정할 권한이 없습니다.")
             return HttpResponseRedirect('/')
@@ -45,9 +45,9 @@ class PhotoDelete(DeleteView) :
     success_url = '/'
 
     def dispatch(self, request, *args, **kwargs):
-        object - self.get_object()
+        object = self.get_object()
         if object.author != request.user:
-            messages.warning(request, "삭제할 권이 없습니다.")
+            messages.warning(request, "삭제할 권한이 없습니다.")
             return HttpResponseRedirect('/')
         else :
             return super(PhotoDelete, self).dispatch(request, *args, **kwargs)
