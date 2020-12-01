@@ -42,24 +42,24 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../filterApp/templates/filterApp/index.html"><b>DayDay</b></a>
+          <a class="navbar-brand" href="index.html"><b>악!플원정대</b></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="actives"><a href="profile.html">Profile</a></li>
-            <li><a href="../filterApp/templates/filterApp/home.html">Home</a></li>
+            <li><a href="home.html">Home</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 Menu <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <li><a href="../filterApp/templates/filterApp/user_detail.html">User detail</a></li>
-                <li><a href="../filterApp/templates/filterApp/edit_profile.html">Edit profile</a></li>
-                <li><a href="../filterApp/templates/filterApp/friends.html">Friends</a></li>
-                <li><a href="../filterApp/templates/filterApp/profile_wall.html">Profile wall</a></li>
-                <li><a href="../filterApp/templates/filterApp/view_photo.html">View photo</a></li>
+                <li><a href="user_detail.html">User detail</a></li>
+                <li><a href="edit_profile.html">Edit profile</a></li>
+                <li><a href="friends.html">Friends</a></li>
+                <li><a href="profile_wall.html">Profile wall</a></li>
+                <li><a href="view_photo.html">View photo</a></li>
 
-                <li><a href="../filterApp/templates/filterApp/file_manager.html">File manager</a></li>
+                <li><a href="file_manager.html">File manager</a></li>
               </ul>
             </li>
             <li><a href="#" class="nav-controller"><i class="fa fa-user"></i></a></li>
@@ -129,9 +129,9 @@
               <div class="name"><a href="#">John Breakgrow jr.</a></div>
               <ul class="cover-nav">
                 <li class="active"><a href="profile.html"><i class="fa fa-fw fa-bars"></i> Timeline</a></li>
-                <li><a href="../filterApp/templates/filterApp/about.html"><i class="fa fa-fw fa-user"></i> About</a></li>
-                <li><a href="../filterApp/templates/filterApp/friends.html"><i class="fa fa-fw fa-users"></i> Friends</a></li>
-                <li><a href="../filterApp/templates/filterApp/photos1.html"><i class="fa fa-fw fa-image"></i> Photos</a></li>
+                <li><a href="about.html"><i class="fa fa-fw fa-user"></i> About</a></li>
+                <li><a href="friends.html"><i class="fa fa-fw fa-users"></i> Friends</a></li>
+                <li><a href="photos1.html"><i class="fa fa-fw fa-image"></i> Photos</a></li>
               </ul>
             </div>
           </div>
@@ -317,10 +317,10 @@
                     <div class="box-footer box-form">
                         <button type="button" class="btn btn-azure pull-right">Post</button>
                         <ul class="nav nav-pills">
-                            <li><a href="#"><i class="fa fa-map-marker"></i></a></li>
-                            <li><a href="#"><i class="fa fa-camera"></i></a></li>
-                            <li><a href="#"><i class=" fa fa-film"></i></a></li>
-                            <li><a href="#"><i class="fa fa-microphone"></i></a></li>
+{#                            <li><a href="#"><i class="fa fa-map-marker"></i></a></li>#}
+                            <li><a href="{% url 'filterApp:create' %}"><i class="fa fa-camera"></i></a></li>
+{#                            <li><a href="#"><i class=" fa fa-film"></i></a></li>#}
+{#                            <li><a href="#"><i class="fa fa-microphone"></i></a></li>#}
                         </ul>
                     </div>
                   </div><!-- end post state form -->
@@ -379,24 +379,28 @@
 
 
                   <!-- post -->
-                  <div class="box box-widget">
-                    <div class="box-header with-border">
-                      <div class="user-block">
-                        <img class="img-circle" src="img/Friends/guy-3.jpg" alt="User Image">
-                        <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
-                        <span class="description">Shared publicly - 7:30 PM Today</span>
-                      </div>
-                    </div>
-                    <div class="box-body">
-                      <p>Far far away, behind the word mountains, far from the
-                      countries Vokalia and Consonantia, there live the blind
-                      texts. Separated they live in Bookmarksgrove right at</p>
 
-                      <p>the coast of the Semantics, a large language ocean.
-                      A small river named Duden flows by their place and supplies
-                      it with the necessary regelialia. It is a paradisematic
-                      country, in which roasted parts of sentences fly into
-                      your mouth.</p>
+                  <div class="box box-widget">
+                      { % for object in object_list % }
+                        <div class="box-header with-border">
+                            {{ object.author }}
+                          <div class="user-block">
+                            <img class="card-img-top" src="{{ object.image.url }}" alt="...">
+                            <span class="username"><a href="#">Jonathan Burke Jr.</a></span>
+                            <span class="description">Shared publicly - 7:30 PM Today</span>
+                          </div>
+                        </div>
+                      { % endfor % }
+                        <div class="box-body">
+                          <p>Far far away, behind the word mountains, far from the
+                          countries Vokalia and Consonantia, there live the blind
+                          texts. Separated they live in Bookmarksgrove right at</p>
+
+                          <p>the coast of the Semantics, a large language ocean.
+                          A small river named Duden flows by their place and supplies
+                          it with the necessary regelialia. It is a paradisematic
+                          country, in which roasted parts of sentences fly into
+                          your mouth.</p>
 
                       <div class="attachment-block clearfix">
                         <img class="attachment-img show-in-modal" src="img/Photos/2.jpg" alt="Attachment Image">
@@ -566,62 +570,62 @@
       <div class="list-group text-left">
         <p class="text-center visible-xs"><a href="#" class="hide-chat btn btn-success">Hide</a></p> 
         <p class="text-center chat-title">Online users</p>  
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-check-circle connected-status"></i>
           <img src="img/Friends/guy-2.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Jeferh Smith</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-times-circle absent-status"></i>
           <img src="img/Friends/woman-1.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Dapibus acatar</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-check-circle connected-status"></i>
           <img src="img/Friends/guy-3.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Antony andrew lobghi</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-check-circle connected-status"></i>
           <img src="img/Friends/woman-2.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Maria fernanda coronel</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-check-circle connected-status"></i>
           <img src="img/Friends/guy-4.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Markton contz</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-times-circle absent-status"></i>
           <img src="img/Friends/woman-3.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Martha creaw</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-times-circle absent-status"></i>
           <img src="img/Friends/woman-8.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Yira Cartmen</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-check-circle connected-status"></i>
           <img src="img/Friends/woman-4.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Jhoanath matew</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-check-circle connected-status"></i>
           <img src="img/Friends/woman-5.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Ryanah Haywofd</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-check-circle connected-status"></i>
           <img src="img/Friends/woman-9.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Linda palma</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-check-circle connected-status"></i>
           <img src="img/Friends/woman-10.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Andrea ramos</span>
         </a>
-        <a href="../filterApp/templates/filterApp/messages1.html" class="list-group-item">
+        <a href="messages1.html" class="list-group-item">
           <i class="fa fa-check-circle connected-status"></i>
           <img src="img/Friends/child-1.jpg" class="img-chat img-thumbnail">
           <span class="chat-user-name">Dora ty bluekl</span>

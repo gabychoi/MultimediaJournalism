@@ -6,7 +6,7 @@ app_name = "filterApp"
 
 
 urlpatterns = [
-    path('', views.index, name = 'index'),
+    path('', views.index, name='index'),
     path('login/profile.html', views.profile, name='profile'),
     path('login/home.html', views.home, name='home'),
     path('login/user_detail.html', views.user_detail, name='user_detail'),
@@ -23,6 +23,6 @@ urlpatterns = [
     path("create/", PhotoCreate.as_view(), name='create'),
     path("delete/<int:pk>/", PhotoDelete.as_view(), name='delete'),
     path("update/<int:pk>/", PhotoUpdate.as_view(), name='update'),
-    path("detatil/<int:pk>/", PhotoDetail.as_view(), name="detail"),
+    path("detail/<int:pk>/", PhotoDetail.as_view(), name="detail"),
     path("", PhotoList.as_view(), name='photo_list'),
 ]

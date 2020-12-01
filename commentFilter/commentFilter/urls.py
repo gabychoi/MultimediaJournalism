@@ -17,7 +17,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
+    path('profile/', include('filterApp.urls')),
     path('admin/', admin.site.urls),
     path('', include('filterApp.urls')),
+
     # 가은이한테 추가
 ]

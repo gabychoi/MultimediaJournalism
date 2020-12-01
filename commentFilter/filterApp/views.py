@@ -15,13 +15,21 @@ class PhotoList(ListView):
 
 class PhotoCreate(CreateView):
     model = Photo
-    fields = ['text', 'image']
+    fields = ['author', 'text', 'image']
     template_name_suffix = '_create'
     success_url = '/'
 
+    def form_valid(self, form):
+        form.instance.author_id = self.request.user.id
+        if form.is_valid():
+            form.instatnce.save()
+            return redirect('/')
+        else:
+            return self.render_to_response({'form':form})
+
 class PhotoUpdate(UpdateView):
     model = Photo
-    fields = ['text', 'image']
+    fields = ['author', 'text', 'image']
     template_name_suffix = '_update'
     success_url = '/'
 
@@ -58,7 +66,7 @@ def login(request):
         request.session['user_email'] = user.user_email
         context['name']  = request.session['user_name']
         context['email'] = request.session['user_email']
-        return render(request, 'filterApp/../layout/profile.html', context)
+        return render(request, 'filterApp/profile.html', context)
     # else:
     #     return redirect('login')
     return render(request, 'filterApp/index.html')
@@ -74,10 +82,10 @@ def register(request) :
         register = User(user_email=email, user_pwd=pwd, user_name=name)
         register.save()
         print('>>>>>>>>>>>>>>>>>>>>', register.user_name)
-    return redirect('index')
+    return redirect('index.html')
 
 def profile(request):
-    return render(request, 'filterApp/../layout/profile.html')
+    return render(request, 'filterApp/profile.html')
 
 def home(request):
     return render(request, 'filterApp/home.html')

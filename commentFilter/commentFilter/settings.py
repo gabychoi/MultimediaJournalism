@@ -58,7 +58,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         # 가은이한테 추가
-        'DIRS': [os.path.join(BASE_DIR, 'layout')],
+        'DIRS': [os.path.join(BASE_DIR, 'filterApp/profile.html')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
