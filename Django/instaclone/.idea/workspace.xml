@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15e15bca-97c2-4605-b687-6360116fb264" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/.idea/commentFilter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/commentFilter/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/commentFilter/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/commentFilter/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/commentFilter/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/commentFilter/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/migrations/0002_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/migrations/0003_photo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/buttons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/cover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/edit_profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/errors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/file_manager.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/forms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/friends.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/friends2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/grid_posts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/list_posts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/login_register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/messages1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/messages2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/panel_widgets.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/people_directory.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/photos1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/photos2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/photos3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/profile2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/profile3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/profile4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/profile_wall.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/recover_password.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/sidebar_profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/timeline.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/user_detail.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/css/view_photo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/grid_posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/js/grid_posts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/js/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/js/jquery.1.11.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/js/jquery.nicescroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/js/jquery.scrollstop.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/assets/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/bootstrap.3.3.6/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/font-awesome.4.6.1/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Bg/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Bg/bg1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Bg/bg2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/bootsrap-cover2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/corb.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/game.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/mandown.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/manok.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/nature.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/profile-cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/relax.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Cover/singlepro-twitter-bootstrap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/child-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/guy-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/guy-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/guy-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/guy-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/guy-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/guy-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/guy-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/guy-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/guy-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Friends/woman-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Likes/likes-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Likes/likes-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Likes/likes-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Likes/likes-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Likes/likes-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Likes/likes-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Movies/movie-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Movies/movie-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Movies/movie-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Originals/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Photos/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Photos/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Photos/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Photos/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Photos/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Photos/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Photos/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Photos/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Photos/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Post/game.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Post/home-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Post/manok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Post/place-234-87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Post/place1-full.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Post/place1-full2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Post/young-couple-in-love.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Profile/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Profile/profile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Sponsor/sponsor-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Sponsor/sponsor-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Sponsor/sponsor-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Sponsor/sponsor-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/Sponsor/sponsor-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/flat-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/icon-edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/static/filterApp/img/prism.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/blank_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/edit_profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/error404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/error500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/file_manager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/forms.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/friends.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/friends2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/grid_posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/list_posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/list_users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/messages1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/messages2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/people_directory.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/photo_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/photo_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/photo_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/photo_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/photo_update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/photos1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/photos2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/profile2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/profile3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/profile4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/profile_wall.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/recover_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/registration_mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/sidebar_profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/user_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/templates/filterApp/view_photo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/filterApp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/media/timeline_photo/2020/12/01/강사님.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/media/timeline_photo/2020/12/01/비버재원.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/media/timeline_photo/2020/12/01/스크린샷_2020-11-26_오후_3.42.34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/media/timeline_photo/2020/12/01/악플원정대.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/media/timeline_photo/2020/12/01/악플원정대_9kwXhkG.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/media/timeline_photo/2020/12/01/재원아이즈.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/media/timeline_photo/2020/12/01/하두리샷.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../commentFilter/media/timeline_photo/2020/12/01/휘파람_재원.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone/.idea/instaclone.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/.idea/instaclone.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/templates/accounts/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/templates/accounts/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/templates/accounts/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/templates/accounts/signup_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/accounts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/instaclone/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/instaclone/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/instaclone/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/instaclone/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/instaclone/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/25/강사님.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/25/악플원정대.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/25/악플원정대_DEp5Vj7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/25/악플원정대_E3rIkxI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/25/악플원정대_pjir0gB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/26/jaewonlee_sexy_ver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/26/강사님.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/26/비버재원.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/26/악플원정대.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/media/timeline_photo/2020/11/26/이재원뒤태.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/templates/photo/photo_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/templates/photo/photo_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/templates/photo/photo_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/templates/photo/photo_update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/templates/photo/photolist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver1/photo/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/.idea/instaclone.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/templates/accounts/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/templates/accounts/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/accounts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/instaclone/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/instaclone/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/instaclone/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/instaclone/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/instaclone/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/25/강사님.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/25/악플원정대.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/25/악플원정대_DEp5Vj7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/25/악플원정대_E3rIkxI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/25/악플원정대_pjir0gB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/26/jaewonlee_sexy_ver.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/26/강사님.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/26/비버재원.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/26/악플원정대.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/media/timeline_photo/2020/11/26/이재원뒤태.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/templates/photo/photo_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/templates/photo/photo_delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/templates/photo/photo_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/templates/photo/photo_update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/templates/photo/photolist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../instaclone_ver2/photo/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/.idea/web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/tempApp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/tempApp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/tempApp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/tempApp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/tempApp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/tempApp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/tempApp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/tempApp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/web/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/web/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/web/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/web/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../web/web/wsgi.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JupyterTrust" id="51235ae7-dcf5-4274-9ec4-9d0ca69b6dc5" />
+  <component name="ProjectId" id="1kldOFhzrumzjxAI3ULVQpE57mZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="instaclone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="instaclone" type="Python.DjangoServer" factoryName="Django server">
+      <module name="instaclone" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15e15bca-97c2-4605-b687-6360116fb264" name="Default Changelist" comment="" />
+      <created>1606279078124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606279078124</updated>
+      <workItem from="1606279124247" duration="1559000" />
+      <workItem from="1606280819534" duration="3188000" />
+      <workItem from="1606286812418" duration="14373000" />
+      <workItem from="1606435627326" duration="1722000" />
+      <workItem from="1606438808234" duration="2231000" />
+      <workItem from="1606449709501" duration="21000" />
+      <workItem from="1606449736066" duration="8000" />
+      <workItem from="1606782846110" duration="13000" />
+      <workItem from="1606789262296" duration="12000" />
+      <workItem from="1607300984490" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="213" y="77" key="#Inspections" timestamp="1606351475046">
+      <screen x="0" y="23" width="1280" height="737" />
+    </state>
+    <state x="213" y="77" key="#Inspections/0.23.1280.737@0.23.1280.737" timestamp="1606351475046" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
