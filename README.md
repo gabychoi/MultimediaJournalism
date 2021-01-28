@@ -1,2 +1,2 @@
 # DataJournalism
-이화여자대학교, 서암 윤세영 재단 주관 **윤세영 저널리즘 스쿨(YJS) 2기의 Data Journalism Project**
+이화여자대학교, 서암 윤세영 재단 주관 **윤세영 저널리즘 스쿨(YJS) 2기**의 **Data Journalism Project**
