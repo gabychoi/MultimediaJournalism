@@ -8,6 +8,8 @@ https://www.highcharts.com/
 
 **매일 김용균이 있었다**
 
+http://news.khan.co.kr/kh_storytelling/2019/labordeath/index.html
+
 
 
 **살아남은 형제들**
