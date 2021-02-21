@@ -6,6 +6,16 @@ https://www.highcharts.com/
 
 
 
+**Figma: the collaborative interface design tool**(from 조소담 대표 페이스북)
+
+https://www.figma.com/
+
+**24 Innovative Content Formats That Audiences and Publishers Love**(from 조소담 대표 페이스북)
+
+https://blog.frac.tl/innovative-content-formats?fbclid=IwAR1OGhlC2KDp3ge69rOCCmgyP3TqijeJ9teqJTkSLeqrF3rqTax4l3gnQRg
+
+
+
 **매일 김용균이 있었다**
 
 http://news.khan.co.kr/kh_storytelling/2019/labordeath/index.html
