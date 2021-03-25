@@ -1,6 +1,12 @@
 ## 데이터 저널리즘 레퍼런스
 
-**Interactive Javascript charts for webpage**(from 소연)
+**데이터카우**
+
+데이터 기반 글쓰기 플랫폼 cf. 정혜승 전 청와대 비서관, 전 세계일보, 한국일보 기자 등
+
+
+
+**Interactive Javascript charts for webpage**(from 멀캠 한소연)
 
 https://www.highcharts.com/
 
